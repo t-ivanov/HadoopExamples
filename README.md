@@ -47,6 +47,8 @@
 
 * List all available __tests__ programs: $yarn jar hadoop-mapreduce-client-jobclient-tests.jar
 
+  * __TestDFSIO__: Distributed i/o benchmark.
+
   * __DFSCIOTest__: Distributed i/o benchmark of libhdfs.
 
   * __DistributedFSCheck__: Distributed checkup of the file system consistency.
