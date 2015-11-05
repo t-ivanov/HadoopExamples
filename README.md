@@ -24,7 +24,7 @@
   
   *	 fail: a job that always fails
   
-  *	filebench: Benchmark SequenceFile(Input|Output)Format (block,record compressed and uncompressed), Text(Input|Output)Format (compressed and uncompressed)
+  *	filebench: Benchmark SequenceFile(Input|Output)Format (block,record compressed and uncompressed), Text(Input|Output)Format (compressed and uncompressed).
   
   *	 largesorter: Large-Sort tester
 
@@ -63,7 +63,7 @@ Document Template
  
 * Description:
 
-What is the functionality of the program? Check the source code and use any available external resources (+reference)
+What is the functionality of the program? Check the source code and use any available external resources (+references).
 
 * Usage: 
 
