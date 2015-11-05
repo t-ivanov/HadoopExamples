@@ -1,6 +1,6 @@
 # Hadoop Examples
 
-* List all available example programs: $yarn jar hadoop-mapreduce-examples.jar
+* List all available __example__ programs: $yarn jar hadoop-mapreduce-examples.jar
   * __aggregatewordcount__: An Aggregate based map/reduce program that counts the words in the input files.
   
   * __aggregatewordhist__: An Aggregate based map/reduce program that computes the histogram of the words in the input files.
@@ -45,7 +45,7 @@
   
   * __wordstandarddeviation__: A map/reduce program that counts the standard deviation of the length of the words in the input files.
 
-* List all available tests programs: $yarn jar hadoop-mapreduce-client-jobclient-tests.jar
+* List all available __tests__ programs: $yarn jar hadoop-mapreduce-client-jobclient-tests.jar
 
   * __DFSCIOTest__: Distributed i/o benchmark of libhdfs.
 
