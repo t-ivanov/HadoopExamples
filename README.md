@@ -72,7 +72,7 @@ Explain the input, output and additional config arguments given by the execution
 * Experimental Executions:
 
 
-| input size | parameter 1 | ouput dir | Time Run1 | Time Run2 | Time Run3 | Avarega Time | SDV Time |
-|-----------|------------|---------|---------|----------|----------|-------------|---------|
-|            |             |           |           |           |           |              |          |
+| Input Data Size | Parameter  | Ouput dir | Time Run1 | Time Run2 | Time Run3 | Avarega Time | SDV Time |
+|-----------------|------------|-----------|-----------|-----------|-----------|--------------|----------|
+|            	  |            |           |           |           |           |              |          |
 
