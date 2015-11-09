@@ -47,7 +47,7 @@
 
 * List all available __tests__ programs: $yarn jar hadoop-mapreduce-client-jobclient-tests.jar
 
-  * __TestDFSIO__: Distributed i/o benchmark.
+  * [__TestDFSIO__](https://github.com/t-ivanov/HadoopExamples/blob/master/TestDFSIO.md): Distributed i/o benchmark.
 
   * __DFSCIOTest__: Distributed i/o benchmark of libhdfs.
 
