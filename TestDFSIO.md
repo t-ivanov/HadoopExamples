@@ -9,9 +9,9 @@ Equation 2: Throughput (N) = (∑_(i=1)^N▒〖file size(i)〗)/(∑_(i=1)^N▒�
 
 
 
-* __Usage__: hadoop jar $HADOOP_HOME/hadoop-*test*.jar TestDFSIO -read | -write | -clean [-nrFiles N] [-fileSize MB] [-resFile resultFileName] [-bufferSize Bytes]
+* __Usage__: TestDFSIO [genericOptions] -read [-random | -backward | -skip [-skipSize Size]] | -write | -append | -clean [-compression codecClassName] [-nrFiles N] [-size Size[B|KB|MB|GB|TB]] [-resFile resultFileName] [-bufferSize Bytes]
 
-* __Options__:
+* __Options__: TestDFSIO.1.7
 
 __-read__: start the read workload
 
@@ -21,17 +21,17 @@ __-clean__: delete the generated data
 
 __-nrFiles__: number of read files/number of map tasks
 
-__-fileSize__: size of read file in MB
+__-size__: size of read file in MB
 
 __-resFile__:
 
 __-bufferSize__:
 
 
-* __Sample Experiments__:
+* __Sample Experiments__: $yarn jar hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -write -nrFiles 10 -size 10MB
 
 
-| Input Data Size | Parameter  | Output dir | Time Run1 | Time Run2 | Time Run3 | Average Time | Standard Deviation Time |
-|-----------------|------------|-----------|-----------|-----------|-----------|--------------|----------|
-|            	  |            |           |           |           |           |              |          |
+| Input Data Size | Operation  | Parameter  |Exec. Time |Throughput MB/Sec|Average IO Rate MB/Sec|IO Rate Standard Deviation |
+|-----------------|------------|------------|-----------|-----------------|----------------------|---------------------------|
+|         10MB 	  |   write    |-nrFiles 10 |   42.458  |  14.10    | 16.94     |      7.94    |
 
