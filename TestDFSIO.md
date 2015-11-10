@@ -33,5 +33,5 @@ __-bufferSize__:
 
 | Input Data Size | Operation  | Parameter  |Exec. Time |Throughput MB/Sec|Average IO Rate MB/Sec|IO Rate Standard Deviation |
 |-----------------|------------|------------|-----------|-----------------|----------------------|---------------------------|
-|         10MB 	  |   write    |-nrFiles 10 |   42.458  |  14.10    | 16.94     |      7.94    |
+|         10MB 	  |   write    |-nrFiles 10 |   42.458  |        14.10    |            16.94     |              7.94         |
 
