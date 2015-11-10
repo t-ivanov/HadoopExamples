@@ -30,7 +30,7 @@ __-bufferSize__:
 
 * __Sample Experiments__: 
  
-$yarn jar hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -write -nrFiles 10 -size 10MB
+$sudo yarn jar hadoop-mapreduce-client-jobclient-tests.jar TestDFSIO -write -nrFiles 10 -size 10MB
 
 
 | Input Data Size | Operation  | Parameter  |Exec. Time |Throughput MB/Sec|Average IO Rate MB/Sec|IO Rate Standard Deviation |
