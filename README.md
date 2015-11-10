@@ -37,7 +37,7 @@
   
   * __teravalidate__: Checking results of terasort
   
-  * __wordcount__: A map/reduce program that counts the words in the input files.
+  * [__wordcount__] (https://github.com/t-ivanov/HadoopExamples/blob/master/Wordcount.md): A map/reduce program that counts the words in the input files.
   
   * __wordmean__: A map/reduce program that counts the average length of the words in the input files.
   
