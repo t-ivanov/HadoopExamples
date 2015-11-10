@@ -26,7 +26,7 @@ __-bufferSize__:
 * __Sample Experiments__:
 
 
-| Input Data Size | Parameter  | Ouput dir | Time Run1 | Time Run2 | Time Run3 | Average Time | Standard Deviation Time |
+| Input Data Size | Parameter  | Output dir | Time Run1 | Time Run2 | Time Run3 | Average Time | Standard Deviation Time |
 |-----------------|------------|-----------|-----------|-----------|-----------|--------------|----------|
 |            	  |            |           |           |           |           |              |          |
 
