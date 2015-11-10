@@ -1,5 +1,7 @@
 # Hadoop Examples
 
+[Sample template] (https://github.com/t-ivanov/HadoopExamples/blob/master/Document_Template.md) that can be used when creating a workload description. 
+
 * List all available __example__ programs: $yarn jar hadoop-mapreduce-examples.jar
   * __aggregatewordcount__: An Aggregate based map/reduce program that counts the words in the input files.
   
