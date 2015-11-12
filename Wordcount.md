@@ -9,6 +9,10 @@
 
 * __Options__:
 
+__m__: maps
+
+__r__: reduces
+
 __in__: HDFS path to the input files
 
 __out__: HDFS path to the output files
