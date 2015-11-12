@@ -11,7 +11,7 @@
 
  __m__: maps
 
- __r__: reduces
+ __r__: reducers
 
  __in__: HDFS path to the input files
 
