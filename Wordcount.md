@@ -9,22 +9,21 @@
 
 * __Options__:
 
-__m__: maps
+ __m__: maps
 
-__r__: reduces
+ __r__: reduces
 
-__in__: HDFS path to the input files
+ __in__: HDFS path to the input files
 
-__out__: HDFS path to the output files
-
-
-
-* __Sample Experiments__:
+ __out__: HDFS path to the output files
 
 
+* __Sample Experiments__: sudo yarn jar hadoop-mapreduce-examples.jar wordcount /user/root/data /user/root/data_out
+
+[Sample Text Data (in zip)] (http://www.gutenberg.org/files/4300/4300.zip)
 
 
-| Input Data Size | Parameter  | Output dir | Time Run1 | Time Run2 | Time Run3 | Average Time | Standard Deviation Time |
-|-----------------|------------|-----------|-----------|-----------|-----------|--------------|----------|
-|            	  |            |           |           |           |           |              |          |
+| Input Data Size | Input directory  | Output directory | Maps Time | Reducers Time | Bytes Written | Bytes Read |
+|-----------------|------------------|------------------|-----------|---------------|-----------|--------------|
+|     4300.txt    | /user/root/data  |/user/root/data_out|  4249ms  |  3755ms       |  527547   |  1573079     |
 
