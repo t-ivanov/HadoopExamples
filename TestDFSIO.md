@@ -1,5 +1,7 @@
 * __Program Name__: TestDFSIO 
  
+* [__Source code__] (https://github.com/apache/hadoop-common/blob/trunk/hadoop-mapreduce-project/hadoop-mapreduce-client/hadoop-mapreduce-client-jobclient/src/test/java/org/apache/hadoop/fs/TestDFSIO.java)
+
 * __Description__: 
 [TestDFSIO](http://www.michael-noll.com/blog/2011/04/09/benchmarking-and-stress-testing-an-hadoop-cluster-with-terasort-testdfsio-nnbench-mrbench/) is a HDFS benchmark included in Hadoop distributions. It is designed to stress test the storage I/O (read and write) capabilities of a cluster. In this way performance bottlenecks in network, hardware, OS and Hadoop setup can be found and fixed. The benchmark consists of two parts: TestDFSIO-write and TestDFSIO-read. The write program starts multiple map tasks with each task writing a separate HDFS file. The read program starts multiple map tasks with each task sequentially reading the previously written HDFS files and measuring the file size and the task execution time. The benchmark uses a single reduce task to measure and compute two performance metrics for each map task: Average I/O Rate and Throughput. Respectively, Equation 1 and Equation 2 illustrate how the two metrics are calculated with N as the total number of map tasks and the index i (0< i < N), identifying the individual tasks.  
 
