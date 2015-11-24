@@ -31,7 +31,7 @@
   
   * __sort__: A map/reduce program that sorts the data written by the random writer.
   
-  * __sudoku__: A sudoku solver.
+  * __sudoku__ (https://github.com/danielOrbegoso/HadoopExamples/blob/master/Sudoku.md): A sudoku solver.
   
   * __teragen__: Generate data for the terasort
   
